@@ -6,7 +6,8 @@
     "type": "module",
     "scripts": {
         "start": "node backend/server.js",
-        "server": "nodemon –experimental-modules backend/server.js"
+        "server": "nodemon –experimental-modules backend/server.js",
+        "client": "npm start --prefix frontend"
     },
     "author": "Benjamin RAMET",
     "license": "MIT",
